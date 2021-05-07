@@ -1,0 +1,29 @@
+﻿<Window x:Class="WPFVoorbeeld.Oefening5"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFVoorbeeld"
+        mc:Ignorable="d"
+        Title="Oefening5" Height="450" Width="800">
+    <Grid>
+        <WrapPanel>
+            <StackPanel>
+                <WrapPanel>
+                    <Label Content="Voornaam" Width="100"></Label>
+                    <TextBox x:Name="tbVoornaam" Height="30" MinWidth="100" Width="auto" Text="" TextAlignment="Center"></TextBox>
+                </WrapPanel>
+                <WrapPanel>
+                    <Label Content="Achternaam" Width="100"></Label>
+                    <TextBox x:Name="tbAchternaam" Height="30" MinWidth="100" Width="auto" Text="" TextAlignment="Center"></TextBox>
+                </WrapPanel>
+                <Button x:Name="btToevoegen" Click="btToevoegen_click">Toevoegen</Button>
+                <WrapPanel>
+                    <Label Content="Index" Width="100"></Label>
+                    <TextBox x:Name="tbIndex" Height="30" MinWidth="100" Width="auto" Text="" TextAlignment="Center"></TextBox>
+                </WrapPanel>
+                <Button x:Name="btIndex" Click="btIndex_click">Search</Button>
+            </StackPanel>
+        </WrapPanel>
+    </Grid>
+</Window>

@@ -1,0 +1,25 @@
+﻿<Window x:Class="WPFVoorbeeld.Oefening32"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFVoorbeeld"
+        mc:Ignorable="d"
+        Title="Oefening32" Height="450" Width="800">
+    <Grid>
+        <TabControl>
+            <TabItem Header="tab _1">
+                <WrapPanel>
+                    <Label Content="Input veld 1:"/>
+                    <TextBox x:Name="tbTab1" Width="200" KeyUp="tbTab1_KeyUp" />
+                </WrapPanel>
+            </TabItem>
+            <TabItem Header="tab _2">
+                <WrapPanel>
+                    <Label Content="Input veld 2:"/>
+                    <TextBox x:Name="tbTab2" Width="200" KeyUp="tbTab2_KeyUp"/>
+                </WrapPanel>
+            </TabItem>
+        </TabControl>
+    </Grid>
+</Window>

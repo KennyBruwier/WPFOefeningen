@@ -1,0 +1,208 @@
+﻿<Window x:Class="WPFVoorbeeld.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFVoorbeeld"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="900">
+    
+    <Grid >
+            <WrapPanel>
+                <StackPanel>
+                    <WrapPanel>
+                        <Label Content="Oefeningen deel 1" VerticalAlignment="Center"></Label>
+                        <Button x:Name="BtnOefening1"  Width="100" Height="100" Click="BtnOefening1_Click">Oefening 1</Button>
+                        <Button x:Name="BtnOefening2"  Width="100" Height="100" Click="BtnOefening2_Click">Oefening 2</Button>
+                        <Button x:Name="BtnOefening3"  Width="100" Height="100" Click="BtnOefening3_Click">Oefening 3</Button>
+                        <Button x:Name="BtnOefening4"  Width="100" Height="100" Click="BtnOefening4_Click">Oefening 4</Button>
+                        <Button x:Name="BtnOefening5"  Width="100" Height="100" Click="BtnOefening5_Click">Oefening 5</Button>
+                        <Button x:Name="BtnOefening6"  Width="100" Height="100" Click="BtnOefening6_Click">Oefening 6</Button>
+                    </WrapPanel>
+                <WrapPanel>
+                    <Label Content="Oefeningen deel 2" VerticalAlignment="Center"/>
+                    <Button x:Name="BtnOefening21"  Width="100" Height="100" Click="BtnOefening21_Click">Oefening 1</Button>
+                    <Button x:Name="BtnOefening23"  Width="100" Height="100" Click="BtnOefening22_Click">Oefening 2</Button>
+                    <Button x:Name="BtnOefening24"  Width="100" Height="100" Click="BtnOefening23_Click">Oefening 3</Button>
+                    <Button x:Name="BtnOefening25"  Width="100" Height="100" Click="BtnOefening24_Click">Oefening 4</Button>
+                </WrapPanel>
+                <WrapPanel>
+                    <Label Content="Oefeningen deel 3" VerticalAlignment="Center"/>
+                    <Button x:Name="BtnOefening31"  Width="100" Height="100" Click="BtnOefening31_Click">Oefening 1</Button>
+                    <Button x:Name="BtnOefening32"  Width="100" Height="100" Click="BtnOefening32_Click">Oefening 2</Button>
+                    <Button x:Name="BtnOefening33"  Width="100" Height="100" Click="BtnOefening33_Click">Oefening 3</Button>
+                    <Button x:Name="BtnOefening34"  Width="100" Height="100" Click="BtnOefening34_Click">Oefening 4</Button>
+                    <Button x:Name="BtnOefening35"  Width="100" Height="100" Click="BtnOefening35_Click">Oefening 5</Button>
+                    <Button x:Name="BtnOefening36"  Width="100" Height="100" Click="BtnOefening36_Click">Oefening 6</Button>
+                    <Button x:Name="BtnOefening37"  Width="100" Height="100" Click="BtnOefening37_Click">Oefening 7</Button>
+                </WrapPanel>
+            </StackPanel>
+
+            </WrapPanel>
+
+        <!--<StackPanel>
+            <ComboBox x:Name="CmbMood">
+                <ComboBox.ItemTemplate>
+                    <DataTemplate>
+                        <StackPanel Orientation="Horizontal">
+                            <Rectangle Fill="{Binding Name}" Height="16" Width="16"></Rectangle>
+                            <Label Content="{Binding Name}"></Label>
+                        </StackPanel>
+                    </DataTemplate>
+                </ComboBox.ItemTemplate>
+            </ComboBox>
+        </StackPanel>-->
+
+        <!--<StackPanel>
+            <ComboBox x:Name="CmbMood">
+                <ComboBox.ItemTemplate>
+                    <DataTemplate>
+                        <StackPanel Orientation="Horizontal">
+                            <Image Width="50" Height="50" Source="{Binding ImagePath}"></Image>
+                            <Label FontSize="20" VerticalAlignment="Center" Content="{Binding Name}"></Label>
+                        </StackPanel>
+                    </DataTemplate>
+                </ComboBox.ItemTemplate>
+            </ComboBox>
+        </StackPanel>-->
+
+        <!--<StackPanel>
+            <ComboBox>
+                <ComboBoxItem>
+                    <StackPanel Orientation="Horizontal">
+                        <Image Width="50" Height="50" Source="Images\emo-1.png"></Image>
+                        <Label FontSize="20" VerticalAlignment="Center">Happy!</Label>
+                    </StackPanel>
+                </ComboBoxItem>
+                <ComboBoxItem>
+                    <StackPanel Orientation="Horizontal">
+                        <Image Width="50" Height="50" Source="Images/emo-2.png"></Image>
+                        <Label FontSize="20" VerticalAlignment="Center">Normal</Label>
+                    </StackPanel>
+                </ComboBoxItem>
+                <ComboBoxItem>
+                    <StackPanel Orientation="Horizontal">
+                        <Image Width="50" Height="50" Source="Images/emo-3.png"></Image>
+                        <Label FontSize="20" VerticalAlignment="Center">Sad...</Label>
+                    </StackPanel>
+                </ComboBoxItem>
+            </ComboBox>
+        </StackPanel>-->
+
+
+        <!--<StackPanel>
+            <ComboBox>
+                <ComboBoxItem>
+                    <StackPanel Orientation="Horizontal">
+                        <Image Width="50" Height="50" Source="https://upload.wikimedia.org/wikipedia/commons/8/87/Google_Chrome_icon_%282011%29.png"></Image>
+                        <Label FontSize="20" VerticalAlignment="Center">Google Chrome</Label>
+                    </StackPanel>
+                </ComboBoxItem>
+                <ComboBoxItem>
+                    <StackPanel Orientation="Horizontal">
+                        <Image Width="50" Height="50" Source="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Firefox_logo%2C_2019.svg/1086px-Firefox_logo%2C_2019.svg.png"></Image>
+                        <Label FontSize="20" VerticalAlignment="Center">Firefox</Label>
+                    </StackPanel>
+                </ComboBoxItem>
+                <ComboBoxItem>
+                    <StackPanel Orientation="Horizontal">
+                        <Image Width="50" Height="50" Source="https://www.windowscentral.com/sites/wpcentral.com/files/styles/small/public/field/image/2020/01/edge-logo-png.png"></Image>
+                        <Label FontSize="20" VerticalAlignment="Center">Edge</Label>
+                    </StackPanel>
+                </ComboBoxItem>
+            </ComboBox>
+        </StackPanel>-->
+
+        <!--<StackPanel>
+            <ComboBox>
+                <ComboBoxItem>
+                    <StackPanel Orientation="Horizontal">
+                        <Image Width="50" Height="50" Source="Images/emo-1.png"></Image>
+                        <Label FontSize="20" VerticalAlignment="Center">Happy</Label>
+                    </StackPanel>
+                </ComboBoxItem>
+                <ComboBoxItem>
+                    <StackPanel Orientation="Horizontal">
+                        <Image Width="50" Height="50" Source="Images/emo-2.png"></Image>
+                        <Label FontSize="20" VerticalAlignment="Center">Normal</Label>
+                    </StackPanel>
+                </ComboBoxItem>
+                <ComboBoxItem>
+                    <StackPanel Orientation="Horizontal">
+                        <Image Width="50" Height="50" Source="Images\emo-3.png"></Image>
+                        <Label FontSize="20" VerticalAlignment="Center">Sad</Label>
+                    </StackPanel>
+                </ComboBoxItem>
+            </ComboBox>
+        </StackPanel>-->
+
+        <!--
+        <WrapPanel>
+            <Button x:Name="BtnMyButton1" Width="200" Height="100" FontSize="30" Click="Button_Click">
+                <WrapPanel Orientation="Vertical">
+                    <Label>Click mij</Label>
+                    <WrapPanel>
+                        <Label Background="Green" FontSize="10">hier is een fototje</Label>
+                    </WrapPanel>
+                </WrapPanel>
+            </Button>
+        </WrapPanel>-->
+        <!--
+        <DockPanel>
+            <Label DockPanel.Dock="Top" Height="100" Background="Red">Top</Label>
+            <Label DockPanel.Dock="Bottom" Background="Yellow">Bottom</Label>
+            <Label DockPanel.Dock="Right" Background="Black">Right</Label>
+            <Label DockPanel.Dock="Left" Background="Cyan">Left</Label>-->
+            <!--<Label VerticalAlignment="Center" HorizontalAlignment="Center">Center</Label>-->
+       <!--     <StackPanel Orientation="Vertical">
+                <Label Padding="20" Background="SaddleBrown">Eerste label</Label>
+                <Label Background="LightCyan">Tweede label</Label>
+                <Label Background="LightBlue">Derde label</Label>
+                <Label Background="Yellow">Vierde label</Label>
+            </StackPanel>
+        </DockPanel>-->
+        <!--<Canvas Margin="100">
+            <StackPanel Orientation="Vertical">
+                <Label Padding="20" Background="SaddleBrown">Eerste label</Label>
+                <Label Background="LightCyan">Tweede label</Label>
+                <Label Background="LightBlue">Derde label</Label>
+                <Label Background="Yellow">Vierde label</Label>
+            </StackPanel>
+        </Canvas>-->
+        <!--
+        <WrapPanel Orientation="Horizontal">
+            <Label Background="Red" Width="300">Label 1</Label>
+            <Label Background="Gray" Width="350">Label 2</Label>
+            <Label Background="Yellow" Width="300">Label 3</Label>
+            <Label Background="Red" Width="300">Label 1</Label>
+            <Label Background="Gray" Width="350">Label 2</Label>
+            <Label Background="Yellow" Width="300">Label 3</Label>
+        </WrapPanel>-->
+        <!--
+        <StackPanel Orientation="Vertical">
+            <Label Background="SaddleBrown">Eerste label</Label>
+            <Label Background="LightCyan">Tweede label</Label>
+            <Label Background="LightBlue">Derde label</Label>
+            <Label Background="Yellow">Vierde label</Label>
+        </StackPanel> -->
+        <!--
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="auto"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition Height="auto"/>
+        </Grid.RowDefinitions>
+
+        <Label Grid.Column="0" Grid.Row="0" Background="Salmon">Linksboven</Label>
+        <Label Grid.Column="1" Grid.Row="0" Background="Yellow">Linksboven</Label>
+        <Label Grid.Column="2" Grid.Row="0" Background="Red">Linksboven</Label>
+        <Label Grid.Column="0" Grid.Row="1" Background="Green">Linksboven</Label>
+        <Label Grid.Column="1" Grid.Row="1" Background="Gray">Linksboven</Label>
+        <Label Grid.Column="2" Grid.Row="1" Background="Gray">Linksboven</Label>
+        -->
+    </Grid>
+</Window>

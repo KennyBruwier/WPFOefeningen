@@ -1,0 +1,24 @@
+﻿<Window x:Class="WPFVoorbeeld.Oefening6"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFVoorbeeld"
+        mc:Ignorable="d"
+        Title="Oefening6" Height="450" Width="800">
+    <Grid>
+        <StackPanel>
+            <WrapPanel>
+                <Label Width="100" Content="Maak een keuze: "></Label>
+                <Button x:Name="btBlad" Width="100" Height="30" Click="btBlad_Click">Blad</Button>
+                <Button x:Name="btSteen" Width="100" Height="30" Click="btSteen_Click">Steen</Button>
+                <Button x:Name="btSchaar" Width="100" Height="30" Click="btSchaar_Click">Schaar</Button>
+            </WrapPanel>
+            <WrapPanel>
+                <Label Width="100" Content="Computer kiest: "></Label>
+                <TextBox Width="100" x:Name="tbKeuzeComputer"></TextBox>
+            </WrapPanel>
+        </StackPanel>
+
+    </Grid>
+</Window>

@@ -1,0 +1,27 @@
+﻿<Window x:Class="WPFVoorbeeld.Oefening31"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFVoorbeeld"
+        mc:Ignorable="d"
+        Title="Oefening31" Height="450" Width="800">
+    <Grid>
+        <StackPanel>
+            <WrapPanel>
+                <ComboBox x:Name="cbGeslacht" Width="100">
+                    <ComboBoxItem Content="Man"/>
+                    <ComboBoxItem Content="Vrouw"/>
+                </ComboBox>
+                <ComboBox x:Name="cbLeeftijd" Width="100">
+                    <ComboBoxItem Content="Minderjarig"/>
+                    <ComboBoxItem Content="Volwassen"/>
+                    <ComboBoxItem Content="Bejaard"/>
+                </ComboBox>
+                <Button x:Name="btClick" Content="klik mij" Width="100" Click="btClick_Click"></Button>
+            </WrapPanel>
+            
+        </StackPanel>
+
+    </Grid>
+</Window>

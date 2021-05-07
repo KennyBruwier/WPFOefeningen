@@ -1,0 +1,19 @@
+﻿<Window x:Class="WPFVoorbeeld.Oefening36"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFVoorbeeld"
+        mc:Ignorable="d"
+        Title="Oefening36" Height="450" Width="800">
+    <Grid>
+        <StackPanel x:Name="checkboxContainer">
+            <CheckBox >check1</CheckBox>
+            <CheckBox >check2</CheckBox>
+            <CheckBox >check3</CheckBox>
+            <CheckBox >check4</CheckBox>
+            <CheckBox >check5</CheckBox>
+            <Button x:Name="btnTest" Click="btnTest_Click">Test</Button>
+        </StackPanel>
+    </Grid>
+</Window>
